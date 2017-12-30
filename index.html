@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+<head>	
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="snap.svg-min.js"></script>
+<script src="scripts.js"></script>
+
+<title>Portfolio</title>
+
+<style>
+
+body{
+  color:white;
+  font-family: "Courier";
+}
+.nav-bar{
+  font-size:24px;
+  position:fixed;
+  background-color: rgb(49,49,49);
+  color: white;
+  width: 100%;
+  height:50px;
+  text-align: right;
+  border-bottom: 4px solid rgb(90,90,90);
+  box-shadow: 0px 5px 3px -3px black;
+}
+
+#scroll{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.nav-bar li{
+  display: inline-block;
+  text-align: center;
+  width:10%;
+  padding-left:0%;
+  padding-right:0%;
+}
+.nav-bar a:visited, a:link, a:active{
+  text-decoration:none;
+  color:white;
+}
+
+.nav-bar .btn:hover{
+  transition: 0.6s ease;
+ /* background-color: rgb(70,70,70);
+  */
+  box-shadow: 0px 6px 3px -3px white;
+}
+
+.Home{
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  padding-top:25%;
+  padding-bottom:1%;
+  background-color: rgb(76,108,141);
+  text-align:center;
+}
+
+.Home2{
+  padding-top:1%;
+  padding-bottom:23%;
+  background-color: rgb(110,115,131);
+}
+.Home2 li{
+  display: inline-block;
+  text-align: center;
+  width:15%;
+  margin-right: 0%;
+  padding-left:0%;
+  padding-right:0%;
+}
+.Home2 a:visited, a:link, a:active{
+  text-decoration:none;
+  color:white;
+}
+
+.Home2 .btn:hover{
+  transition:0.3s;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.Projects{
+  background-color: rgb(224,165,109);
+  padding-top:25%;
+  padding-bottom:26%;
+}
+.showProj{
+  border-style: inset;
+  margin: auto;
+  width:50%;
+  height:50%;
+  overflow:auto;
+  white-space:nowrap;
+}
+.showProj > div{
+  height:100%;
+  margin-left:10%;
+  margin-right:10%;
+  display: inline-block;
+}
+
+.About{
+  height:100%;
+  background-color: rgb(150,150,150);
+  padding-top:25%;
+  padding-bottom:20%;
+}
+
+.title{
+  margin-top:-20%;
+  margin-left:5%;
+}
+.About p{
+  font-size:20px;
+  padding-left:2.5%;
+  padding-right:2.5%
+}
+.profile img{
+  background-color: rgba(255,255,255,0.7);
+  border-style:solid;
+  border-radius:50%;
+  height:35%;
+}
+.About table{
+  width:90%;
+  margin:auto;
+  text-align: top,left;
+}
+</style>
+</head>
+
+
+<body>
+    <div class="nav-bar" id="nav">
+          <ul>
+      <li><a href="#pg1" class="btn">Home</a></li>
+      <li><a href="#pg2" class="btn">Projects</a></li>
+      <li><a href="#pg3" class="btn">About</a></li>
+    </ul>
+  </div>
+  <div class="Home" id="pg1">
+    <div class="fadeinto">
+    <h1>Vinh Nguyen</h1>
+    <h2>{insert description of myself here}</h2>
+    </div>
+  </div>
+  <div style="background-color:rgb(39,40,40);height:8px;">
+  </div>
+  <div class="Home2">
+    <div class="contact fadeinto2" style="width:95%;text-align:center;">
+    <ul>
+      <li><a class="btn" href="https://www.linkedin.com/in/vinhpn/" target="_blank"><i class="fa fa-linkedin" style="margin-right:8px;"></i>Linkedin</a>
+      </li>
+      <li><a class="btn" href="https://github.com/VinhPN" target="_blank"><i class="fa fa-github-alt" style="margin-right:8px;"></i>Github</a>
+      </li>
+      <li>
+        <a class="btn" href="https://www.freecodecamp.org/vinhpn" target="_blank"><i class="fa fa-free-code-camp" style="margin-right:8px;"></i>freeCodeCamp</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+    <div style="background-color:rgb(39,40,40);height:8px;">
+  </div>
+  <div class="Projects" id="pg2">
+    <h1 class="title">Projects</h1>
+    <hr style="color:rgb(49,49,49);background-color:rgb(49,49,49);width:95%;height:5px;margin-left:2.5%;margin-bottom: 4%;"/>
+    
+    <div class="showProj">
+      <div class="proj1" style="color:black;text-align:bottom;">
+  <a href="#"><img src="https://2.imimg.com/data2/LQ/QV/MY-/teddy-small-size-500x500.jpg"/></a>
+      </div>
+      <div class="proj2">
+        <a href="#"><img src="https://2.imimg.com/data2/LQ/QV/MY-/teddy-small-size-500x500.jpg"/></a>
+      </div>
+      <div class="proj3">
+      <a href="#"><img src="https://2.imimg.com/data2/LQ/QV/MY-/teddy-small-size-500x500.jpg"/></a>
+      </div>
+        <div class="proj4">
+        <a href="#"><img src="https://2.imimg.com/data2/LQ/QV/MY-/teddy-small-size-500x500.jpg"/></a>
+      </div>
+    </div>
+    </div>
+  </div>
+      <div style="background-color:rgb(39,40,40);height:8px;">
+  </div>
+  <div class="About" id="pg3">
+    <h1 class="title">About Me</h1>
+    <br/>
+    <table>
+      <tr> 
+        <td style="vertical-align: top">
+          <p style="font-size:30px;"> <b>Hello! </b></p>
+          <p style="font-size:20px"> My name is Vinh Nguyen, and I am studying computer science at the University of Waterloo. Currently, I am in first year, and learning web development. I plan on learning game development as well! I have a little bit of experience with HTML, CSS and Java</p>    
+        </td>
+        <td style="vertical-align: top">
+          <div class="profile" style="height:100vh;">
+            <img src="profile.png"/>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+      </div>
+      <div id="footer" style="background-color:rgb(39,40,40)">
+        Copyright &copy; 2017 Vinh Nguyen
+      </div>
+  
+</body>
+
+</html>
