@@ -1,0 +1,118 @@
+
+body{
+  color: white;
+  font-family: Courier;
+}
+
+.nav-bar{
+  font-size:24px;
+  position:fixed;
+  background-color: rgb(49,49,49);
+  color: white;
+  width: 100%;
+  height:50px;
+  text-align: right;
+  border-bottom: 4px solid rgb(90,90,90);
+  box-shadow: 0px 5px 3px -3px black;
+}
+#scroll{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.nav-bar li{
+  display: inline-block;
+  text-align: center;
+  width:10%;
+  padding-left:0%;
+  padding-right:0%;
+}
+.nav-bar a:visited, a:link, a:active{
+  text-decoration:none;
+  color:white;
+}
+
+.nav-bar .btn:hover{
+  transition: 0.6s ease;
+ /* background-color: rgb(70,70,70);
+  */
+  box-shadow: 0px 6px 3px -3px white;
+}
+
+.Home{
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  padding-top:25%;
+  padding-bottom:1%;
+  background-color: rgb(76,108,141);
+  text-align:center;
+}
+
+.Home2{
+  padding-top:1%;
+  padding-bottom:23%;
+  background-color: rgb(110,115,131);
+}
+.Home2 li{
+  display: inline-block;
+  text-align: center;
+  width:15%;
+  margin-right: 0%;
+  padding-left:0%;
+  padding-right:0%;
+}
+.Home2 a:visited, a:link, a:active{
+  text-decoration:none;
+  color:white;
+}
+
+.Home2 .btn:hover{
+  transition:0.3s;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.Projects{
+  background-color: rgb(224,165,109);
+  padding-top:24%;
+  padding-bottom:26%;
+}
+.slideshow{
+  padding-top:3%;
+  width:50%;
+  height:50%;
+  margin:auto;
+  overflow:hidden;
+}
+.slideshow img{
+  width:500px;
+  height:auto;
+}
+.slideshow .btn-right{
+  margin-top:-50%;
+  margin-left: 68%;
+}
+.slideshow .btn-left{
+  margin-top:-50%;
+}
+.About{
+  height:100%;
+  background-color: rgb(150,150,150);
+  padding-top:24%;
+  padding-bottom:26%;
+}
+
+.title{
+  margin-top:-20%;
+  margin-left:5%;
+}
+.About p{
+  font-size:16px;
+  padding-left:2.5%;
+  padding-right:2.5%
+}
