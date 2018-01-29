@@ -146,6 +146,7 @@ $(document).ready(function(){
   $("#pg1").css("color","rgb(255,242,206)");
   $(".fa-home").css("color","rgb(255,242,206)");
   $(".nav").show();
+  $(".profile").show("fade",500);
   intro(false);
   showProjects(false);
   about(false);

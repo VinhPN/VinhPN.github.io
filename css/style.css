@@ -228,7 +228,6 @@ nav li {
   height:200px;
 }
 .profile img{
-  display:none;
   background-color: rgba(235,235,235,0.7);
   border-color:rgba(255,255,255,0.8);
   border-style:solid;
