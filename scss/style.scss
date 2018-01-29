@@ -1,0 +1,146 @@
+body{
+  background-color:white;
+  color:rgb(255,255,255);
+}
+button:active,
+button:focus, 
+.btn:active, 
+.btn:focus,
+.lstbtn:active, 
+.lstbtn:focus, 
+input:focus,
+select:focus,
+textarea:focus, {
+    outline: none !important;
+  box-shadow:none;
+}
+.container{
+  padding:0;
+}
+.fixed-content{
+  overflow-y:auto;
+  left:0;
+  position:fixed;
+  top:0;
+  bottom:0;
+  background-color:rgb(39,40,40);
+  box-shadow: 5px 0px 5px -2px black;
+}
+.nav-bar{
+  float:left;
+  position:fixed;
+  width: 240px;
+  min-height:100%;
+  overflow:auto;
+}
+nav{
+  margin-top:240px;
+  text-align:left;
+  padding-left:10px;
+  //height:10vh;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  //background-color:rgba(0,0,0,1);
+  margin-left:10px;
+}
+.list-nav{
+  margin-left:-20px;
+  transition: all 0.5s ease;
+}
+.btn{
+  transition: all 0.25s ease;
+  border-radius:0px;
+  margin-top:1vh;
+  text-align:left;
+  padding-left:10px;
+  width:150px;
+  font-size:16px;
+  background-color:rgba(0,0,0,0);
+}
+.dropdown{
+  padding-left:60px;
+  margin-top:2px;
+  background-color:rgb(39,40,40);
+  margin-left:-5px;
+  display:none;
+}
+.dropdown a{
+  color:white;
+  border-left: 3px solid black;
+  transition: all 0.25s ease;
+  text-align:left;
+  padding-left:10px;
+  width:100%;
+  font-size:16px;
+  background-color:rgba(0,0,0,0);
+}
+.Pages{
+  float:left;
+  display:none;
+  overflow-y:hidden;
+  position:absolute;
+  right:0;
+  color:white;//rgb(39,40,40);
+  min-height: 100%;
+  width: calc(100% - 240px);
+}
+.a{
+  background-color:rgb(255,255,255);
+  display:none;
+  text-align:left;
+  border:5px solid rgba(255,255,255,0.8);
+  height:100vh;
+  margin-left:50%;
+  //box-shadow: 0px 5px 5px 4px black;
+}
+
+#intro1{
+  position:relative;
+  left:0;
+  margin-top:35%;
+  padding: 5px 16px 5px 16px;
+  background-color:rgb(255,169,0);
+  width:50%;
+  margin-left:0;
+}
+#intro2{
+  background-color:rgb(137,255,124);
+  padding: 5px 16px 5px 16px;
+  width:80%;
+  margin-left:0;
+}
+#intro3{
+  background-color:rgb(119,144,255);
+  padding: 5px 16px 5px 16px;
+  width:70%;
+  margin-left:0;
+}
+
+.b{
+  background-color:white;
+}
+.project{
+  display:none;
+  margin:auto;
+  background-color:rgb(102,101,100);
+  width:500px;
+  height:250px;
+  text-align:center;
+}
+.list-proj{
+  transition: all 0.5s ease;
+  padding-left:10px;
+}
+a:hover{
+  text-decoration:none;
+}
+
+
+.c{
+  background-color:white;
+}
