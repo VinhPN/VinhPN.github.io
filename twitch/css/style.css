@@ -1,0 +1,95 @@
+body{
+  line-height:20px;
+  background-color:rgb(235,235,235);
+  text-align:center;
+  height:100%;
+}
+p{
+}
+.offline{
+  background-color:rgb(66,66,66);
+  color: rgb(109,109,109);
+}
+.online{
+  background-color:rgb(189, 255, 181)
+}
+td img{
+  height:60px;
+  width:auto;
+  border-radius:50%;
+  border:3px solid rgba(255,255,255,0.8);
+}
+#streamers{
+  margin:auto;
+}
+table{
+  border-top:2px rgba(0,0,0,0) solid;
+  border-bottom:2px rgba(0,0,0,0) solid;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin: 3px 0px 3px 0px;
+  width:450px;
+}
+.title img{
+  height:70px;
+  width:auto;
+}
+.title{
+  padding:12px 0px 12px 0px;
+  margin:20px auto auto auto;
+  background-color:#7a41a5;
+  width:450px;
+}
+.status p{
+  font-size:12px;
+  word-wrap:break-all;
+  white-space:normal;
+}
+th{
+  border-top:2px rgba(0,0,0,0) solid;
+  border-bottom:2px rgba(0,0,0,0) solid;
+}
+.btn{
+  margin-left:0;
+  width:150px;
+  height:60px;
+  border-radius:0%;
+  transition:all 0.25s ease;
+}
+.filter{
+  width:450px;
+  font-size:0px;
+  margin:auto;
+}
+.btn:focus,
+.btn:active,
+input:focus,
+select:focus,
+textarea:focus,
+button:active,
+button:focus {
+    outline: none;
+  box-shadow:none;
+}
+.offline a{
+  text-decoration:none;
+  color: rgb(109,109,109);
+}
+.offlien a:visited{
+  color: rgb(109,109,109);
+}
+.offline a:hover{
+  color:rgb(79,79,79);
+}
+
+.online a{
+  text-decoration:none;
+  color: rgb(39,49,49);
+}
+.online a:visited{
+  text-decoration:none;
+  color: rgb(39,49,49);
+}
+.online a:hover{
+  color:rgb(79,89,89);
+}

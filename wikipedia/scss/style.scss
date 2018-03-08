@@ -1,0 +1,64 @@
+body{
+  padding-top:40px;
+  background-color: rgb(235,235,235);
+  padding-bottom:80px;
+}
+a:visited,
+a:link,
+a:active{
+  text-decoration:none;
+  color:black;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.title{
+  width: 100vw;
+  text-align:center;
+}
+.title img{
+  width:15vw;
+  height:auto;
+}
+.text{
+  text-align:center;
+}
+
+.input-txt{
+  font-size:16px;
+  border-radius:10px;
+  width:323px;
+  height:20px;
+}
+.btn{
+  border-radius:5px;
+  font-size: 14px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto;
+}
+.buttons{
+  margin-top:10px;
+}
+
+.pages{
+  margin: 8px 25% 8px 25%;
+  font-size:20px;
+  background-color:white;
+  padding: 8px 16px 6px 16px;
+  text-align:left;
+  border-bottom: 2px white solid;
+}
+p{
+  font-size: 17px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+.pages:hover{
+  transition:0.5s ease all;
+  border-bottom: 2px black solid;
+}
