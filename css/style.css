@@ -1,6 +1,7 @@
 body {
-  background-color: white;
+  background-color: rgb(251,230,225);
   color: white;
+  font-family: 'Rubik', sans-serif;
 }
 .name-text{
   background-color:rgba(0,0,0,0);
@@ -14,8 +15,8 @@ path{
   fill:rgba(255,255,255,0.8); 
   stroke-dasharray: 1460;
   opacity: 10;
-  -webkit-animation: name 5s cubic-bezier(0,0.23,1,.1);
-  animation: name 5s cubic-bezier(0,0.23,1,.1);
+  -webkit-animation: name 3s cubic-bezier(0,0.23,1,.1);
+  animation: name 3s cubic-bezier(0,0.23,1,.1);
 
 }
 @keyframes name{
@@ -133,9 +134,8 @@ nav li {
   min-height: 100%;
   width: calc(100% - 240px);
 }
-
 .a {
-  background-color: white;
+  background-color: rgb(251,230,225);;
   display: none;
   text-align: left;
   border: 5px solid rgba(255, 255, 255, 0.8);
@@ -148,27 +148,28 @@ nav li {
   left: 0;
   margin-top: 45%;
   padding: 5px 16px 5px 16px;
-  background-color: rgb(255,187,63);
+  background-color: rgb(234, 170, 86);
   width: 50%;
   margin-left: 0;
 }
 
 #intro2 {
-  background-color: #89ff7c;
+  background-color: rgb(90, 147, 221);
   padding: 5px 16px 5px 16px;
   width: 80%;
   margin-left: 0;
 }
 
 #intro3 {
-  background-color: #7790ff;
+  background-color: rgb(144,168,142);
   padding: 5px 16px 5px 16px;
   width: 70%;
   margin-left: 0;
 }
 
 .b {
-  background-color: white;
+  background-color: rgb(188,189,193);
+  min-height:100%;
 }
 
 .project {
@@ -178,28 +179,34 @@ nav li {
   background-color: rgb(59,60,60);
   text-align: center;
   margin-top:16px;
+  width:300px;
+  height:300px;
+  border-radius:20px;
+  border-color: rgb(223,255,214);
+  border-width: 5px;
+  border-style: solid;
+  margin-bottom:30px;
 }
 .project:hover{
   background-color:rgb(49,50,50);
 }
 .pro1{
-  width: 370px;
-  height: 415px;
+  background-image: url("../Pictures/foxyjump.png");
+  background-size: contain;
   margin-right:auto;
 }
 .pro2{
-  width: 500px;
-  height: 415px;
+	background-image: url("../Pictures/wiki.png");
+  background-size: contain;
   margin-left:auto;
 }
 .pro3{  
-  width: 370px;
-  height: 415px;
+    background-image: url("../Pictures/twitch.png");
+  background-size: contain;
   margin-right:auto;
 }
 .pro4{
-  width: 370px;
-  height: 415px;
+  position: relative;
   margin-left:auto;
 }
 .desc{
@@ -218,7 +225,7 @@ nav li {
 }
 
 .c {
-  background-color: white;
+  background-color: rgb(234,231,214);
 
 }
 .profile{
