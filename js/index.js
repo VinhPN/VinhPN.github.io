@@ -70,6 +70,10 @@ function showProjects(clicked){
   } else{
     $("#titleproj").hide("fold",{direction:"left"},400);
     $(".project").hide("fold",700);
+    $(".pro1").hide();
+    $(".pro2").hide();
+    $(".pro3").hide();
+    $(".pro4").hide();
     $("#dropProject").delay(0).slideUp();
   }
 }
@@ -81,13 +85,17 @@ function findProject(link){
 
   $(link).css("background-color","rgb(59,60,60)");
 }
-function about(clicked){
+function about(clicked){  
     if(clicked){
      $("#titleabout").delay(200).show("slide",{direction:"left"},700);
      $("#dropAbout").delay(0).slideDown();
+     $("#summary").delay(200).show("fold",{horizFirst:true},700);
+     $("#interests").delay(900).show("fold",{horizFirst:true},700);
   } else{
      $("#titleabout").hide("fold",{direction:"left"},400);
      $("#dropAbout").delay(0).slideUp();
+     $("#summary").hide("fold",{direction:"left"},400);
+     $("#interests").hide("fold",{direction:"left"},400);
   }
 } 
 
@@ -101,7 +109,7 @@ $( "#pg1" ).click(function() {
   about(false);
   direction = true;
   //$(".dropdown").hide("slide",{direction:"up"},400);
-  changeColour("rgb(59,60,60)","rgb(255,242,206)",1);
+  changeColour("rgb(59,60,60)","(110,170,231)",1);
   transition(".a",".b",".c","up");
   
 });
@@ -116,7 +124,7 @@ $( "#pg2" ).click(function() {
   } else{
     transition(".b",".a",".c","up");
   }
-  changeColour("rgb(59,60,60)","rgb(255,209,209)",2);
+  changeColour("rgb(59,60,60)","rgb(245,197,164)",2);
   
 });
 $( "#pg3" ).click(function() {
@@ -125,7 +133,7 @@ $( "#pg3" ).click(function() {
   about(true);
   direction = false;
   //$(".dropdown").hide("slide",{direction:"up"},400);
-  changeColour("rgb(59,60,60)","rgb(209,255,235)",3);
+  changeColour("rgb(59,60,60)","rgb(222,213,183)",3);
   transition(".c",".a",".b","down");
 });
 
@@ -143,8 +151,8 @@ $(document).ready(function(){
   $("#pg2").css("color",colour);
   $("#pg3").css("color",colour);
   $("#p1").css("background-color","rgb(59,60,60)");
-  $("#pg1").css("color","rgb(255,242,206)");
-  $(".fa-home").css("color","rgb(255,242,206)");
+  $("#pg1").css("color","rgb(110,170,231)");
+  $(".fa-home").css("color","rgb(110,170,231)");
   $(".nav").show();
   $(".profile").show("fade",500);
   intro(false);
